@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+body {
+    background: url(../img/bckg.jpg) no-repeat fixed ;
+    background-size: auto;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    max-width: 920
+    
+}
+.bg-primary {
+    background-color: #3a3f4454 !important;
+}
+div.card.product {
+    background: none;
+        color: #fff;
+        border:none;
+}
+
+#contacts {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#contacts p {
+    margin: 0
+}
+
+.card {
+    height: 100%;
+}
+
+.alert {
+    position: fixed;
+    top: 50px;
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}

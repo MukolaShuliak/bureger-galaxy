@@ -33,7 +33,7 @@ class Cart {
                 <div class="row">
                     <div class="col-5"><strong>Товари</strong></div>
                     <div class="col-3"><strong>Ціна</strong></div>
-                    <div class="col-2"><strong>Quantity</strong></div>
+                    <div class="col-2"><strong>Кількість</strong></div>
                 </div>`;
         for (const id in this.cart) {
             const product = productList.getProductById(id);
@@ -50,7 +50,7 @@ class Cart {
         total = total.toFixed(2);
         cartDomSting += `
                 <div class="row">
-                    <div class="col-5"><strong>TOTAL</strong></div>
+                    <div class="col-5"><strong>Разом</strong></div>
                     <div class="col-3"><strong>${total} Грн</strong></div>
                 </div>            
         </div>`;
